@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;50;600&display=swap");
+/*common styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+a{
+    text-decoration: solid;
+}
+li{
+    list-style-type:none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #2c3e50;
+    justify-content: space-between;
+    top:0;
+}
+.logo{
+    color: #fff;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    color: #fff;
+    display: block;
+    padding: 5px 40px;
+    scroll-behavior: smooth;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+ 
+section{
+    padding: 4rem 0;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    color:forestgreen;
+}
+.title,
+.desc{
+    margin: 1rem auto;
+    text-align: center;
+    font-size: large;
+    
+}
+.desc{
+    max-width: 800px;
+    color: darkred;
+    font-size: x-large;
+    text-align: justify;
+    line-height: 1.5;
+}
+img{
+    position:absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+.flex{
+    display: flex;
+
+}
+.child{
+    height: 280px;
+    width: 1000px;
+    background-color:honeydew;
+    color: brown;
+    font-size:large;
+    margin: 10px;
+    text-align: justify;
+}
+.child-1{
+    height: 480px;
+    width: 1000px;
+    background-image:url('agri.jpg');
+    background-repeat:round;
+    border: 2px solid black;
+    color:darkred;
+    font-size: 14px;
+    margin: 40px;
+    text-align: justify;
+}
+div.transbox {
+    margin: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: larger;
+  }
+  
+.flex h3{
+    font-size: 18px;
+    text-align:center;
+    color:indigo;
+}
+.sicon{
+    align-content: center;
+    font-size: larger;
+    color:darkred;
+    display: flex; 
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+.flex ul li{
+    text-align: center;
+    font-size: larger;
+    color:darkred;
+}
+/*nav*/
+.nav--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav--container h2{
+    color: #fff;
+}
+
+
+
+/*js*/
+.js{
+    background-color: #f1f2f4;
+    scroll-behavior: smooth;
+}
+.js .img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.jspro{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: gold;
+}
+.jsdec{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 1rem;
+    color: darkred;
+    font-size: xx-large;
+}
+/*about*/
+/*education*/ 
+.containers{
+
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.containers .box{
+    position: relative;
+    width: 200px 60%;
+    height:auto;
+    line-height: 50px;
+    background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    color:darkred;
+      
+}
+
+.education{
+    background-color: #f1f2f4;
+    scroll-behavior: smooth;
+}
+
+/*skill*/
+.skill{
+    scroll-behavior: smooth;
+    }
+.skillcontainer{
+    width: 100%;
+    background-color:#f1f2f4;
+}
+.skills{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:darkred;
+}
+.html{
+    text-align: right;
+    width: 80%;
+    background-color:lemonchiffon;
+}
+.css{
+    text-align: right;
+    width: 70%;
+    background-color:lemonchiffon;
+}
+.jsc{
+    text-align: right;
+    width: 50%;
+    background-color:lemonchiffon;
+}
+.java{
+    text-align: right;
+    width: 90%;
+    background-color:lemonchiffon;
+}
+.sql{
+    text-align: right;
+    width: 60%;
+    background-color:lemonchiffon;
+}
+.rjs{
+    text-align: right;
+    width: 50%;
+    background-color:lemonchiffon;
+}
+
+/*project*/
+.project{
+    background-color: #f1f2f4;
+    scroll-behavior: smooth;
+}
+
+/*content*/
+.contact{
+    padding: 10% 10px;
+}
